@@ -61,6 +61,7 @@ void MyDB_TableReaderWriter :: writeIntoTextFile (string fileName) {
 	MyDB_RecordPtr aRec = getEmptyRecord();
 	MyDB_RecordIteratorPtr record_itr = getIterator(aRec); 
 	while(record_itr->hasNext()){
+		record_itr->getNext();
 		toText << aRec << '\n';
 	}
 	toText.close();
