@@ -1,0 +1,37 @@
+Name: Jiwei Ye 		NetId: jy54
+Name: Min Zhou		NetId: mz22
+
+Test Result:                                  
+(1) The query is valid
+
+(2) Error: Selected attribute(Not aggregates): [s_s_suppkey]is not grouping attribute.
+
+(3) Error: Greater Than Operation - The type of lhs hand side(* ([l_l_extendedprice], - (int[1], [l_l_discount]))) is not the same as that of right hand side(string[a string]).
+
+(4) Error: Sum Operation - The type of child(+ ([l_l_returnflag], + ([l_l_shipdate], [l_l_commitdate]))) is not the type of Numeric
+
+(5) The query is valid
+
+(6) Error: Greater Than Operation - The type of lhs hand side(+ ([l_l_tax], [l_l_discount])) is not the same as that of right hand side(string[date2]).
+
+(7) Error: The attribute k_orderkeydoesn't exist in table orders
+
+(8) Error: This alias: h for attribute:o_custkey is not recorded.
+
+(9) Error: Minus Opeartion - The right hand side (string[here is another]) is not Numeric Type
+
+(10) Error: The selected table customersdoes NOT exist in database
+
+(11) The query is valid
+
+(12) The query is valid
+
+(13) Error: The attribute l_extendedpricedoesn't exist in table customer
+
+(14) The query is valid
+
+(15) Error: Greater Than Operation - The type of lhs hand side(+ ([l_l_discount], [l_l_extendedprice])) is not the same as that of right hand side(string[327]).
+
+(16) The query is valid
+
+(17) The query is valid
